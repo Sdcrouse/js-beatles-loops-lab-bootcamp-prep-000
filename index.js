@@ -8,11 +8,11 @@ function theBeatlesPlay (beatle, instrument){
 }
 
 function johnLennonFacts (factoids) {
-  var i = 0, newArray = [];
+  var i = 0; //newArray = [];
   
   while (i < factoids.length) {
-    newArray[i] = `${factoids[i]}!!!`;
+    factoids[i] = `${factoids[i]}!!!`;
     ++i;
   }
-  return newArray;
+  return factoids;
 }
