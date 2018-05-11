@@ -6,4 +6,3 @@ function theBeatlesPlay (beatle, instrument){
   }
   return hePlaysThis;
 }
-
