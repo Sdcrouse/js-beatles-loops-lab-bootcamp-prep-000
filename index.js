@@ -8,11 +8,12 @@ function theBeatlesPlay (beatle, instrument){
 }
 
 function johnLennonFacts (factoids) {
-  var i = 0; //newArray = [];
+  var i = 0, newArray = [];
+  //Note: this also works if I just alter the factoids array.
   
   while (i < factoids.length) {
-    factoids[i] = `${factoids[i]}!!!`;
+    newArray[i] = `${factoids[i]}!!!`;
     ++i;
   }
-  return factoids;
+  return newArray;
 }
