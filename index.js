@@ -17,3 +17,14 @@ function johnLennonFacts (factoids) {
   }
   return newArray;
 }
+
+function iLoveTheBeatles(number) {
+  //We all live in a yellow submarine, yellow submarine, yellow submarine...
+  
+  var beatleMania = [], heyJude = 0;
+  
+  do {
+    beatleMania[heyJude] = "I love the Beatles!";
+    heyJude++;
+  } while (number < 15);
+}
