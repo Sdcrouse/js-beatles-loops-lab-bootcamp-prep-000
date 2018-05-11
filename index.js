@@ -26,7 +26,9 @@ function iLoveTheBeatles(number) {
   do {
     beatleMania[heyJude] = "I love the Beatles!";
     heyJude++;
+    number++;
   } while (number < 15);
   
   return beatleMania;
 }
+
