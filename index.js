@@ -8,5 +8,9 @@ function theBeatlesPlay (beatle, instrument){
 }
 
 function johnLennonFacts (factoids) {
+  var i = 0;
   
+  while (i < factoids.length) {
+    
+  }
 }
