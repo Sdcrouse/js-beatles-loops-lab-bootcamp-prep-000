@@ -21,11 +21,11 @@ function johnLennonFacts (factoids) {
 function iLoveTheBeatles(number) {
   //We all live in a yellow submarine, yellow submarine, yellow submarine...
   
-  var beatleMania = []; //heyJude = 0;
+  var beatleMania = [], heyJude = 0;
   
   do {
-    beatleMania[number] = "I love the Beatles!";
-    //heyJude++;
+    beatleMania[heyJude] = "I love the Beatles!";
+    heyJude++;
     number++;
   } while (number < 15);
   
