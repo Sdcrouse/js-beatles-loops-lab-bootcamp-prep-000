@@ -8,9 +8,9 @@ function theBeatlesPlay (beatle, instrument){
 }
 
 function johnLennonFacts (factoids) {
-  var i = 0;
+  var i = 0, newArray = [];
   
   while (i < factoids.length) {
-    
+    newArray
   }
 }
