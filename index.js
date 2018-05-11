@@ -11,6 +11,8 @@ function johnLennonFacts (factoids) {
   var i = 0, newArray = [];
   
   while (i < factoids.length) {
-    newArray
+    newArray[i] = `${factoids[i]}!`;
+    ++i;
   }
+  return newArray;
 }
